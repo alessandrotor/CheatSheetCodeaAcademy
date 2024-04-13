@@ -1,3 +1,19 @@
 table {
-    border: 3px solid rgb(140, 140, 140);
+    border: 1px solid rgb(140, 140, 140);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+
+}
+
+table tr th {
+    font-size: 25px;
+    font-family: Roboto;
+}
+/* add space between row and column */
+table tr td {
+    padding-right: 15px;
+    font-family: Arial;
 }
